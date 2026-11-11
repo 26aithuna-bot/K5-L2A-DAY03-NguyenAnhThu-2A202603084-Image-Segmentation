@@ -5,3 +5,7 @@ __pycache__/
 data/**/groundtruth/
 data/_cache/
 /*.zip
+
+# Gợi ý YOLO/SegFormer tạo cục bộ — không phải bài nộp
+preannotations/
+*.pt
