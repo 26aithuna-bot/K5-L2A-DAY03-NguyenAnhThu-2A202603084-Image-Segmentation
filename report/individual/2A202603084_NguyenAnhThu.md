@@ -6,7 +6,7 @@
   - Gợi ý mask tự động: **YOLO11x-seg** (COCO, cho person/car/bus/truck/motorcycle/bicycle/traffic light) và **SegFormer-B2 Cityscapes** (cho road/sidewalk/building/vegetation/sky/pole/traffic sign), chạy bằng [`tools/preannotate.py`](../../tools/preannotate.py).
   - Tạo 9 task, import gợi ý và export ZIP bằng cvat-sdk qua [`tools/cvat_tasks.py`](../../tools/cvat_tasks.py).
   - Sửa thủ công trong CVAT: đổi label trong bảng Objects, vẽ thêm mask bằng Brush, sửa biên mask.
-  - Trợ lý AI Claude Code đã viết hai script trên và hướng dẫn thao tác CVAT, đồng thời soạn report này từ ghi chú sửa mask của tôi, có đối chiếu với dữ liệu CVAT.
+  - Trợ lý AI đã viết hai script trên và hướng dẫn thao tác CVAT, đồng thời soạn report này từ ghi chú sửa mask của tôi, có đối chiếu với dữ liệu CVAT.
   - Không dùng SAM.
 
 ## 1. Bài đã nộp
